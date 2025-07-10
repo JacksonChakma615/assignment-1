@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  background-color: rgba(255, 255, 255, 0.9); Semi-transparent white
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -36,10 +36,47 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: bold;
+  font-weight: bolder;
   transition: background-color 0.3s ease;
 }
 
 .signup-btn:hover {
   background-color: #2e36cc;
 }
+
+
+/* center content section */
+
+
+.center-content{
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.main-hading{
+
+font-size: 36px;
+
+color: #333;
+margin-bottom: 30px;
+}
+
+
+.focus-btn{
+    background-color: #2e36cc;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.focus-btn:hover{
+
+    background-color: #2e36cc;
+}
+
