@@ -1,0 +1,45 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body with optional background */
+body {
+  font-family: Arial, sans-serif;
+  background: url('background.png'); /* Optional background image */
+  background-size: cover;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3eeb;
+}
+
+/* Sign Up button styling */
+.signup-btn {
+  background-color: #3c46f0;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #2e36cc;
+}
